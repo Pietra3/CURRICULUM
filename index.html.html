@@ -1,0 +1,98 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<html>
+	<head>
+		<title>bootstrap aula</title>
+		
+		<!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+  		        
+  		<link rel="stylesheet" href="css/bootstrap.css">
+      
+	</head>
+	
+<body>
+		
+    <!-- Início da barra de navegação -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+            
+            <!-- botao utilizado para abrir menu em dispositivos resolucao menor -->
+          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          	</button>
+            
+            <!-- logo do site -->
+            
+			
+			<!-- inicio menu -->
+            <div class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#about">MAIS SOBRE MIM</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+              </ul>
+            </div>
+            <!-- fim menu -->
+            
+		</div>
+	</div>
+	<!-- Fim da barra de navegação -->
+	
+   <!-- Cria area principal de marketing de um site -->
+    <div class="jumbotron">
+      <div class="container">
+      	<br />
+        <h1>Projetos</h1>
+        <p>
+        	Esses projetos foram selecionados dentre vários que já fiz na faculdade.
+        </p>
+        <p><a class="btn btn-primary btn-lg" role="button">Veja mais &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container"><!-- container -->
+      <!-- Criação de colunas -->
+      <div class="row">
+      	
+        <div class="col-md-4">
+          <h2>PROJETO MERCADORIA</h2>
+          <p>
+          	Este projeto tem como finalidade cadastrar e organizar cada produto tanto importado qunato nacional. O sistema tem diversas funcionalidades na qual além de cadastrar é possivel também pesquisar, excluir , listar o produto.
+          </p>
+          <p><a class="btn btn-default" href="https://github.com/Pietra3/Cadastro-de-Produtos.git">Veja mais &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>PROJETO BASIC JAVA</h2>
+          <p>
+          	Projeto basic.
+          </p>
+          <p><a class="btn btn-default" href="https://github.com/Pietra3/Q2.git">Veja mais &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>SITE WEB SIMPLES</h2>
+          <p>
+          	Este site fez parte do meu treino, é um site basico que pode servir para aprensentar uma empresa e seus serviços.
+          </p>
+          <p><a class="btn btn-default" href="https://github.com/Pietra3/de_web_basic.git">View details &raquo;</a></p>
+        </div>
+        
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; PIETRA </p>
+      </footer>
+    </div> <!-- /container -->
+
+	</body>
+	
+</html>
